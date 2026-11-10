@@ -1,0 +1,2 @@
+tau_multiplier,tau,residual_spectral_norm,delta,k0,best_iteration,best_rank,best_validation_rmse,best_validation_mae,final_rank,final_observed_error,iterations,converged,execution_time_seconds
+10,321.5288732893859,32.15288732893859,1.0,10,8,18,0.9176176965525735,0.722449545264056,125,0.2906039720609195,30,False,6.867346600000019
