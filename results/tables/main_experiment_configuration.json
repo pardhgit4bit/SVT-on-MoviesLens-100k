@@ -1,0 +1,21 @@
+{
+  "dataset": "MovieLens 100K",
+  "protocol": "80% development split / 20% untouched final test; five-fold CV performed only within development",
+  "development_observations": 80000,
+  "final_test_observations": 20000,
+  "selected_bias_adjusted_svt": {
+    "tau_multiplier": 10.0,
+    "delta": 1.0,
+    "fixed_iterations": 7
+  },
+  "selected_original_svt": {
+    "tau": 9430.0,
+    "delta": 1.0,
+    "fixed_iterations": 425
+  },
+  "bias_baseline": {
+    "regularization": 10.0,
+    "iterations": 20
+  },
+  "test_set_used_for_model_selection": false
+}
